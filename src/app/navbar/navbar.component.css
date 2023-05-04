@@ -1,12 +1,35 @@
-.spacer {
-  flex: 1 1 auto;
-}
+
 .mat-toolbar.mat-primary {
-  background: #538FF7;
+  background: #fcfdff;
   color: #fff;
 }
 a{
   cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  color: #757575;
+  font-family: google-sans,Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  margin-right: 16px;
+}
+mat-toolbar {
+  border-bottom: none;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.nav-container a {
+  margin-right: 8px;
 }

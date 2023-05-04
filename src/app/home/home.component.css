@@ -11,7 +11,7 @@
   }
   
   .content {
-    padding: 20px;
+    padding: 80px;
   }
   
   .image-box {
@@ -36,4 +36,39 @@
     border-radius: 115px;
     display: block;
   }
-  
+  marquee {
+    height: 50px;
+    transition: background-color 1.0s ease-out;
+    font-weight: 800;
+    font-size: larger;
+}
+.marquee-scroll {
+  padding: 10px;
+  color: black;
+}
+.io-intro {
+  margin: 0 80px; 
+}
+.io-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.io-image-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.io-image-container img {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 25px;
+}
+
+.io-content {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}

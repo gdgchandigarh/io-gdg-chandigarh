@@ -1,11 +1,13 @@
 <mat-toolbar color="primary" class="mat-elevation-z8" style="position: fixed; top: 0; width: 100%;">
-    <a  [routerLink]="['/']" >
- <span>Google I/O Extended</span>
-   </a>
-  <div class="spacer"></div>
-
- <a mat-button routerLink="home">Home</a>
- <a mat-button routerLink="services">Speakers</a>
- <a mat-button routerLink="projects">Contact Us</a>
- <a mat-button routerLink="aboutus">About Us</a>
-</mat-toolbar>
+    <a [routerLink]="['/']" class="logo-link">
+      <img src="../../assets/Google IO 2023 Logo.png" alt="Google IO 2023 Logo" class="logo-image">
+    </a>
+    <div class="spacer"></div>
+    <div class="nav-container">
+      <a mat-button (click)="toSpeakers()">Schedule</a>
+      <a mat-button (click)="toSpeakers()">Speakers</a>
+      <a mat-button (click)="toSpeakers()">Partners</a>
+      <a mat-raised-button color="primary">Register</a>
+    </div>
+  </mat-toolbar>
+  

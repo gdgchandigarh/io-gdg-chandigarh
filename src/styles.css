@@ -2,3 +2,10 @@
 
 html, body { height: 100%; background-color: #e0e0e0; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+p {
+    color:  rgba(0,0,0,.6)!important;
+    font-family: google-sans,Helvetica,Arial,Sans-Serif;
+  }
+  h1,h2,h3,h4 {
+      color:  rgba(0,0,0,.6)!important;
+  }
