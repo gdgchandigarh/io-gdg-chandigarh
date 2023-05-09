@@ -1,2 +1,140 @@
 <app-navbar></app-navbar>
-<router-outlet></router-outlet>
+
+<div class="banner">
+  <img src="../../assets/C-IOE23-WebBanner-2560x500.png" alt="Banner Image">
+</div>
+
+  <div class="content">
+    <div class="image-box">
+      <div class="content-box">
+        <h1><strong style="font-size: 1.5em;">Most Awaited</strong></h1>
+        <h1><strong style="font-size: 1.5em;"><span style="color: #4285f4;">Tech-Event</span> For <span style="color: #ea4335;">Developers</span></strong></h1>
+        <br>
+        <div class="event">
+          <div class="event-icon">
+            <i class="material-icons">calendar_today</i>
+          </div>
+          <div class="event-details">
+            <span class="event-label">Date:</span>
+            <span class="event-text">Dec 17, 2022</span>
+          </div>
+        </div>
+        
+        <div class="event">
+          <div class="event-icon">
+            <i class="material-icons">access_time</i>
+          </div>
+          <div class="event-details">
+            <span class="event-label">Time:</span>
+            <span class="event-text">8:30 AM to 5:00 PM IST</span>
+          </div>
+        </div>
+        
+        <div class="event">
+          <div class="event-icon">
+            <i class="material-icons">location_on</i>
+          </div>
+          <div class="event-details">
+            <span class="event-label">Location:</span>
+            <span class="event-text">Auditorium, D1 Block, Gate 1, Chandigarh University</span>
+          </div>
+        </div>
+        
+        <p>An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.</p>
+        <button mat-raised-button class="large-button" >Registration Open</button>
+  
+      </div>
+      <div class="image-container">
+        <img src="../../assets/gifs/IOE23_WatchParty.gif" alt="Image">
+      </div>
+    </div>
+  </div>
+  
+<section class="io-intro">
+  <div class="io-container">
+    <div class="io-image-container">
+      <img src="../../assets/IMG20220605172817.jpg" alt="image description">
+    </div>
+<div class="io-content">
+        <h2>What is Google I/O Extended Chandigarh ? </h2>
+        <p>Google I/O Extended Chandigarh, a full day event, where you find updates of Google's Products. 
+           The magic of I/O doesn’t end after the main event. Local developers come together for I/O Extended 
+           events to discuss the latest new technologies, summarize content, hosting Q&As, and meet other technology enthusiasts. 
+           This will be a physical event, promising to each of our attendee an experience, unlike anything they've ever seen.</p>
+
+<div class="io-boxes">
+  <div class="io-boxes-left">
+    <div class="io-box">
+      <p class="io-box-text"><strong>01</strong><br>Day</p>
+    </div>
+    <div class="io-box">
+      <p class="io-box-text"><strong>300+</strong><br>Attendees</p>
+    </div>
+  </div>
+  <div class="io-boxes-right">
+    <div class="io-box">
+      <p class="io-box-text"><strong>05+</strong><br>Speakers</p>
+    </div>
+    <div class="io-box">
+      <p class="io-box-text"><strong>06+</strong><br>Technologies</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="technologies">
+  <h2>
+    Technologies to be focused
+  </h2>
+  <p>At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
+
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="rounded-image" style="">
+      <img src="https://io.google/2022/app/images/android-logo.svg" alt="technology 1">
+    </div>
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/chrome-logo.svg" alt="technology 2">
+    </div>
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/firebase-logo.svg" alt="technology 3">
+    </div>
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/flutter-logo.svg" alt="technology 4">
+    </div>
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/googlecloud-logo.svg" alt="technology 5">
+    </div>
+    
+  </div>
+</section>
+
+<section id="speakers">
+  <app-speakers></app-speakers>
+</section>
+
+<section class="schedule" id="schedule" style="overflow-x: auto;">
+  <div class="container">
+    <h2>Schedule</h2>
+    <p class="description">Interested in Android, Flutter, Web, Cloud, ML technologies?<br>Join the vibrant and diverse set of speakers where you can learn, network, share knowledge and enjoy the experience.</p>
+  <div class="schedule__row" *ngFor="let item of sessions">
+    <div class="schedule__time">
+      <p>{{item.startTime}}</p>
+    </div>
+    <div class="schedule__details">
+      <h3>{{item.title}}</h3>
+      <div class="speaker">
+        <img src="../assets/speakers/{{item.imageName}}" alt="Speaker Name" class="speaker-image" />
+        <div class="speaker-name">{{item.speakerName}}</div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  </div>
+</section>
+
+<section>
+    <app-footer></app-footer>
+</section>
+

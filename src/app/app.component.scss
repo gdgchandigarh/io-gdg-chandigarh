@@ -1,0 +1,359 @@
+
+.banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-top: 0;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.content {
+  padding: 80px;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-box {
+  width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+  
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 115px;
+  display: block;
+}
+marquee {
+  height: 50px;
+  transition: background-color 1.0s ease-out;
+  font-weight: 800;
+  font-size: larger;
+}
+h1 {
+margin: 0;
+padding: 0;
+line-height: 1;
+}
+h1 strong {
+font-size: 3em;
+}
+
+p strong {
+font-size: 2em;
+}
+.marquee-scroll {
+padding: 10px;
+color: black;
+}
+.io-intro {
+margin: 0 80px; 
+}
+.io-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.io-image-container {
+flex: 1;
+padding-right: 20px;
+}
+
+.io-image-container img {
+width: 100%;
+display: block;
+height: auto;
+border-radius: 25px;
+}
+
+.io-content {
+flex: 1;
+text-align: left;
+padding-left: 20px;
+}
+:host {
+  display: block;
+  height: 100vh;
+}
+.large-button {
+  font-size: 2em;
+  padding: 15px 30px;
+  border-radius: 25px;
+  height: 44px;
+  min-width: 78px;
+  font-size: medium;
+}
+.event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.event-icon {
+  margin-right: 10px;
+  font-size: 10px;
+}
+.material-icons {
+  font-size: 20px;
+  color: #737373;
+}
+
+.event-details {
+  text-align: right;
+}
+
+.event-label {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #737373;
+}
+
+.event-text {
+  font-size: 1.1em;
+  color: #737373;
+}
+#speakers {
+  margin-top: 64px; /* height of the toolbar */
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-box {
+    margin: 10px;
+  }
+  .io-intro {
+    margin: 0 35px;
+  }
+  .io-container {
+    flex-direction: column;
+  }
+  .io-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .io-image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-box {
+  flex-direction: column;
+  }
+  .image-container {
+  width: 100%;
+  margin-bottom: 20px;
+  }
+  .content-box {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  text-align: justify;
+  word-spacing: -1px;
+  letter-spacing: -0.5px;
+  }
+  }
+  .io-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .io-boxes-left,
+  .io-boxes-right {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+  }
+
+  .io-boxes-left .io-box,
+  .io-boxes-right .io-box {
+    width: 170px;
+    height: 110px;
+    background-color: #fcefbe;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .io-box-text {
+    text-align: center;
+  }
+  .technologies {
+    padding: 0px;
+    margin: 70px 0px 0px 86px;
+  }
+  .rounded-image {
+    width: 124px;
+    height: 124px;
+    margin: 10px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .schedule {
+    padding: 0 500px;
+  }
+  
+  .schedule__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .schedule__time {
+    width: 80px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .schedule__time p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .schedule__time hr {
+    margin: 0;
+    border-top: 2px solid black;
+    border-bottom: none;
+  }
+
+  .schedule__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    width: 640px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+  }
+
+  .schedule__details h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .schedule__details p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .schedule__details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  img.speaker-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.description {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    .content {
+      padding: 25px;
+    }
+    .content-box {
+      text-align: left;
+      padding: 25px;
+    }
+    .event-details {
+      text-align: left;
+      margin-left: 20px;
+    }
+}
+
+
+/* Add this CSS to make the schedule section responsive */
+@media screen and (max-width: 768px) {
+  .schedule {
+    display: block;
+    padding: 30px 20px;
+  }
+
+  .schedule__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+
+  .schedule__time {
+    flex-basis: 30%;
+    text-align: center;
+  }
+
+  .schedule__details {
+    flex-basis: 70%;
+    margin-left: 20px;
+  }
+
+  .speaker {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .speaker-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.container {
+  text-align: center;
+}
