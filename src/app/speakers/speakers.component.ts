@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SpeakerDialogComponent } from '../speaker-dialog/speaker-dialog.component';
 
@@ -47,7 +47,7 @@ export class SpeakersComponent {
     }
   ];
 
-  constructor(public dialog: MatDialog) {}
+  constructor(@Inject(MatDialog) public dialog: MatDialog) {}
 
   openSpeakerDialog(speaker: any) {
     const dialogRef = this.dialog.open(SpeakerDialogComponent, {

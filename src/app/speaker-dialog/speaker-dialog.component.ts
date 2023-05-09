@@ -7,7 +7,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
   styleUrls: ['./speaker-dialog.component.scss']
 })
 export class SpeakerDialogComponent {
-  constructor(
+  constructor(@Inject(MatDialogRef<SpeakerDialogComponent>)
     public dialogRef: MatDialogRef<SpeakerDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any) {}
 
