@@ -120,10 +120,6 @@ padding-left: 20px;
   color: #737373;
 }
 
-.event-details {
-  text-align: right;
-}
-
 .event-label {
   margin-right: 5px;
   font-weight: bold;
@@ -172,6 +168,7 @@ padding-left: 20px;
   .image-container {
   width: 100%;
   margin-bottom: 20px;
+  margin-top: 20px;
   }
   .content-box {
   width: 100%;
@@ -183,6 +180,8 @@ padding-left: 20px;
   letter-spacing: -0.5px;
   }
   }
+
+
   .io-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +213,13 @@ padding-left: 20px;
   .technologies {
     padding: 0px;
     margin: 70px 0px 0px 86px;
+  }
+
+  @media only screen and (max-width: 768px){
+    .technologies {
+      padding: 25px;
+      margin: 0px 0px 0px 15px;
+    }
   }
   .rounded-image {
     width: 124px;
@@ -257,29 +263,41 @@ padding-left: 20px;
     border-bottom: none;
   }
 
-  .schedule__details {
+  .schedule_details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
     width: 640px;
     border-bottom: 2px solid;
     border-left: 2px solid;
   }
-
-  .schedule__details h3 {
+  
+  .speaker_image {
+    margin-right: 10px;
+  }
+  
+  .speakers_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+  }
+  
+  .schedule_details h3 {
     margin: 0;
     font-weight: bold;
     font-size: 1.2rem;
   }
 
-  .schedule__details p {
+  .schedule_details p {
     margin: 0;
     font-size: 1rem;
   }
 
-  .schedule__details img {
+  .schedule_details img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
@@ -293,13 +311,19 @@ padding-left: 20px;
 .description {
   font-size: 18px;
 }
+
+.schedule_details {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
     .content {
       padding: 25px;
     }
     .content-box {
       text-align: left;
-      padding: 25px;
+      padding: 1px;
     }
     .event-details {
       text-align: left;
@@ -326,7 +350,7 @@ padding-left: 20px;
     text-align: center;
   }
 
-  .schedule__details {
+  .schedule_details {
     flex-basis: 70%;
     margin-left: 20px;
   }

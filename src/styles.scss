@@ -20,3 +20,8 @@ h1, h2, h3, h4, p {
 p {
   font-family: google-sans,Helvetica,Arial,Sans-Serif;
 }
+@media screen and (max-width: 768px){
+ .main{
+    padding: 25px;
+ }
+}

@@ -3,7 +3,7 @@
 <div class="banner">
   <img src="../../assets/C-IOE23-WebBanner-2560x500.png" alt="Banner Image">
 </div>
-
+<div class="main">
   <div class="content">
     <div class="image-box">
       <div class="content-box">
@@ -16,7 +16,7 @@
           </div>
           <div class="event-details">
             <span class="event-label">Date:</span>
-            <span class="event-text">Dec 17, 2022</span>
+            <span class="event-text">May 27, 2023</span>
           </div>
         </div>
         
@@ -26,7 +26,7 @@
           </div>
           <div class="event-details">
             <span class="event-label">Time:</span>
-            <span class="event-text">8:30 AM to 5:00 PM IST</span>
+            <span class="event-text"> 09:00 AM - 4:00 PM IST</span>
           </div>
         </div>
         
@@ -36,12 +36,12 @@
           </div>
           <div class="event-details">
             <span class="event-label">Location:</span>
-            <span class="event-text">Auditorium, D1 Block, Gate 1, Chandigarh University</span>
+            <span class="event-text">Swami Vivekanand Institute of Engineering & Technology, Chandigarh-Patiala National Highway, Ramnagar Banur - 140601</span>
           </div>
         </div>
         
-        <p>An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.</p>
-        <button mat-raised-button class="large-button" >Registration Open</button>
+        <p>Google I/O Extended is the community led counterpart to Google I/O, our annual Google led conference where the world hears about Google's latest developer solutions, products, and technology.</p>
+        <button mat-raised-button class="large-button" >Register Now</button>
   
       </div>
       <div class="image-container">
@@ -62,7 +62,7 @@
            events to discuss the latest new technologies, summarize content, hosting Q&As, and meet other technology enthusiasts. 
            This will be a physical event, promising to each of our attendee an experience, unlike anything they've ever seen.</p>
 
-<div class="io-boxes">
+<!-- <div class="io-boxes">
   <div class="io-boxes-left">
     <div class="io-box">
       <p class="io-box-text"><strong>01</strong><br>Day</p>
@@ -79,7 +79,7 @@
       <p class="io-box-text"><strong>06+</strong><br>Technologies</p>
     </div>
   </div>
-</div>
+</div> -->
 </div>
 </div>
 </section>
@@ -95,17 +95,21 @@
       <img src="https://io.google/2022/app/images/android-logo.svg" alt="technology 1">
     </div>
     <div class="rounded-image">
-      <img src="https://io.google/2022/app/images/chrome-logo.svg" alt="technology 2">
-    </div>
-    <div class="rounded-image">
-      <img src="https://io.google/2022/app/images/firebase-logo.svg" alt="technology 3">
-    </div>
-    <div class="rounded-image">
       <img src="https://io.google/2022/app/images/flutter-logo.svg" alt="technology 4">
     </div>
     <div class="rounded-image">
       <img src="https://io.google/2022/app/images/googlecloud-logo.svg" alt="technology 5">
     </div>
+    
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/machinelearning-logo.svg" alt="technology 3">
+    </div>
+   
+    <div class="rounded-image">
+      <img src="https://io.google/2022/app/images/chrome-logo.svg" alt="technology 2">
+    </div>
+    
+  
     
   </div>
 </section>
@@ -117,23 +121,26 @@
 <section class="schedule" id="schedule" style="overflow-x: auto;">
   <div class="container">
     <h2>Schedule</h2>
-    <p class="description">Interested in Android, Flutter, Web, Cloud, ML technologies?<br>Join the vibrant and diverse set of speakers where you can learn, network, share knowledge and enjoy the experience.</p>
   <div class="schedule__row" *ngFor="let item of sessions">
     <div class="schedule__time">
       <p>{{item.startTime}}</p>
     </div>
-    <div class="schedule__details">
-      <h3>{{item.title}}</h3>
-      <div class="speaker">
+    <div class="schedule_details">
+      <div class="speaker_image">
         <img src="../assets/speakers/{{item.imageName}}" alt="Speaker Name" class="speaker-image" />
-        <div class="speaker-name">{{item.speakerName}}</div>
+      </div>
+      <div class="speakers_content">
+        <h3>{{item.title}}</h3>
+        <div class="speaker">
+          <div class="speaker_name">{{item.speakerName}}</div>
+        </div>
       </div>
     </div>
     <hr>
   </div>
   </div>
 </section>
-
+</div>
 <section>
     <app-footer></app-footer>
 </section>
