@@ -57,6 +57,16 @@ export class NavbarComponent {
   toPartners() {
 
   }
+
+  toFAQ() {
+    const element = document.getElementById("faq");
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }
   register() {
 
   }

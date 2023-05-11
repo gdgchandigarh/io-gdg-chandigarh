@@ -29,9 +29,17 @@ export class FooterComponent {
       this.backToTop.nativeElement.classList.remove('show');
     }
   }
-
+  
+  toFAQ() {
+    const element = document.getElementById("faq");
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+  }
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+  }
 
 }

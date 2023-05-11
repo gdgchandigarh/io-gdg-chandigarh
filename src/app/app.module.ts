@@ -33,6 +33,7 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     SpeakersComponent,
     ScheduleComponent,
     SpeakerDialogComponent,
-    FooterComponent
+    FooterComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
