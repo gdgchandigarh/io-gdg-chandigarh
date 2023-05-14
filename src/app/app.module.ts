@@ -34,6 +34,7 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { FaqComponent } from './faq/faq.component';
+import { PartnersComponent } from './partners/partners.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { FaqComponent } from './faq/faq.component';
     ScheduleComponent,
     SpeakerDialogComponent,
     FooterComponent,
-    FaqComponent
+    FaqComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,
