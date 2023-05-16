@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@use 'bootstrap/scss/bootstrap';
 @use '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @use '@fortawesome/fontawesome-free/scss/solid.scss'; 
 @use '@fortawesome/fontawesome-free/scss/regular.scss';
@@ -25,3 +24,4 @@ p {
     padding: 25px;
  }
 }
+

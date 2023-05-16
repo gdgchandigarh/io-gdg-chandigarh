@@ -77,12 +77,19 @@ h2 {
   color: #007bff;
 }
 
-.community{
-  margin-bottom: 20px;
+
+.col-md-3 {
+  flex: 0 0 auto;
+  width: 17%;
 }
 
+.col-lg-3.col-md-4.col-sm-6.col-xs-12{
+  margin-bottom: 10px;
+}
 
-
+.custom-row [class^="col-"] {
+  margin-bottom: 15px; /* Adjust the margin as needed */
+}
 
 @media screen and (max-width: 768px){
     .image-container {
@@ -98,4 +105,16 @@ h2 {
       .col-md-3 {
         margin-bottom: 20px;
     }
+}
+@media (min-width: 600px) and (max-width: 1400px)  {
+  .col-lg-3.col-md-4.col-sm-6.col-xs-12{
+    margin: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1300px)  {
+  .col-lg-3.col-md-4.col-sm-6.col-xs-12{
+    margin-right: 3px;
+    margin-left: 90px;
+  }
 }

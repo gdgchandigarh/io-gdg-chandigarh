@@ -36,6 +36,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { FaqComponent } from './faq/faq.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ModalComponent } from './modal-component/modal-component.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { ModalComponent } from './modal-component/modal-component.component';
     MdbScrollspyModule,
     MdbTabsModule,
     MdbTooltipModule,
-    MdbValidationModule
+    MdbValidationModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
