@@ -64,24 +64,6 @@
            events to discuss the latest new technologies, summarize content, hosting Q&As, and meet other technology enthusiasts. 
            This will be a physical event, promising to each of our attendee an experience, unlike anything they've ever seen.</p>
 
-<!-- <div class="io-boxes">
-  <div class="io-boxes-left">
-    <div class="io-box">
-      <p class="io-box-text"><strong>01</strong><br>Day</p>
-    </div>
-    <div class="io-box">
-      <p class="io-box-text"><strong>300+</strong><br>Attendees</p>
-    </div>
-  </div>
-  <div class="io-boxes-right">
-    <div class="io-box">
-      <p class="io-box-text"><strong>05+</strong><br>Speakers</p>
-    </div>
-    <div class="io-box">
-      <p class="io-box-text"><strong>06+</strong><br>Technologies</p>
-    </div>
-  </div>
-</div> -->
 </div>
 </div>
 </section>
@@ -115,34 +97,18 @@
     
   </div>
 </section>
-
-<!-- 
-  <section class="schedule" id="schedule" style="overflow-x: auto;">
-  <div class="container">
-    <h2>Schedule</h2>
-  <div class="schedule__row" *ngFor="let item of sessions">
-    <div class="schedule__time">
-      <p>{{item.startTime}}</p>
-    </div>
-    <div class="schedule_details">
-      <div class="speaker_image">
-        <img src="../assets/speakers/{{item.imageName}}" alt="Speaker Name" class="speaker-image" />
-      </div>
-      <div class="speakers_content">
-        <h3>{{item.title}}</h3>
-        <div class="speaker">
-          <div class="speaker_name">{{item.speakerName}}</div>
-        </div>
-      </div>
-    </div>
-    <hr>
-  </div>
-  </div>
-</section> -->
-
-<!-- <section id="speakers">
+<div class="hr-container">
+  <hr>
+</div>
+  <section class="schedule" id="schedule">
+    <app-schedule></app-schedule>
+</section> 
+<div class="hr-container">
+  <hr>
+</div>
+<section id="speakers">
   <app-speakers></app-speakers>
-</section> -->
+</section>
 
 <section class="partners" id="partners">
   <app-partners></app-partners>
@@ -151,7 +117,6 @@
 <section class="faq" id="faq">
   <app-faq></app-faq>
 </section>
-
 </div>
 
 <section>

@@ -1,18 +1,22 @@
-<!-- speaker-dialog.component.html -->
+
 
 <h2 mat-dialog-title class="dialog-image">
    
-    <img src="../../assets/speakers/{{data.speaker.image}}" alt="Speaker Avatar" class="avatar">
+    <img src="../../assets/speakers/{{data.speaker.imageName}}" alt="Speaker Avatar" class="avatar">
     <div class="speaker-info">
       <div class="name">{{data.speaker.name}}</div>
       <div class="company">{{data.speaker.company}}</div>
     </div>
   </h2>
   
-  <div mat-dialog-content>
-    <p>{{data.speaker.description}}</p>
+  <div mat-dialog-content class="content">
+    <p>{{data.speaker.bio}}</p>
   </div>
-  
+
+  <div class="session">
+    <h4>Session</h4>
+    <h6> {{data.speaker.title}}</h6>
+  </div>
   <div mat-dialog-actions class="mat-dialog-actions-left">
     <button mat-button (click)="onClose()">Close</button>
   </div>

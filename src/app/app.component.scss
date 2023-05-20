@@ -143,38 +143,11 @@ padding-left: 20px;
   margin-top: 64px; /* height of the toolbar */
 }
 
-.io-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.io-boxes-left,
-  .io-boxes-right {
-    display: flex;
-    justify-content: center;
-    flex-basis: 50%;
-}
-
-.io-boxes-left .io-box,
-  .io-boxes-right .io-box {
-    width: 170px;
-    height: 110px;
-    background-color: #fcefbe;
-    margin: 10px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.io-box-text {
-    text-align: center;
-}
 .technologies {
     padding: 0px;
     margin: 70px 0px 0px 86px;
 }
+
 .rounded-image {
     width: 124px;
     height: 124px;
@@ -184,96 +157,18 @@ padding-left: 20px;
     justify-content: center; 
     align-items: center;
   }
-.schedule {
-    padding: 0 500px;
-  }
-  
-.schedule__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 10px;
-  }
-
-.schedule__time {
-    width: 80px;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px;
-    text-align: center;
-    margin-right: 10px;
-  }
-
-.schedule__time p {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-.schedule__time hr {
-    margin: 0;
-    border-top: 2px solid black;
-    border-bottom: none;
-  }
-
-.schedule_details {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
-    width: 640px;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-  }
-  
-.speaker_image {
-    margin-right: 10px;
-  }
-  
-.speakers_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: justify;
-  }
-  
-.schedule_details h3 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-.schedule_details p {
-    margin: 0;
-    font-size: 1rem;
-  }
-
-.schedule_details img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-img.speaker-image {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-}
 
 .description {
   font-size: 18px;
 }
 
-.schedule_details {
-  display: flex;
-  align-items: center;
-}
-
 .faq{
   padding: 25px;
   margin: 0 80px;
+}
+.hr-container {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
