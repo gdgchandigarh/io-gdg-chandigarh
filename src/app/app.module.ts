@@ -37,6 +37,7 @@ import { FaqComponent } from './faq/faq.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ModalComponent } from './modal-component/modal-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     FaqComponent,
     PartnersComponent,
-    ModalComponent
+    ModalComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

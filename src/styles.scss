@@ -8,10 +8,6 @@
  
 @use 'mdb-angular-ui-kit/assets/scss/mdb.scss';
 
-body {
-  margin: 0;
-}
-
 h1, h2, h3, h4, p {
   font-family: google-sans,Helvetica,Arial,Sans-Serif;
   color: #616161;
@@ -25,3 +21,11 @@ p {
  }
 }
 
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+p {
+    color:  rgba(0,0,0,.6)!important;
+    font-family: google-sans,Helvetica,Arial,Sans-Serif;
+  }
+  h1,h2,h3,h4 {
+      color:  rgba(0,0,0,.6)!important;
+  }

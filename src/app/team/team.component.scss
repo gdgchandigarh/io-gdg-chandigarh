@@ -1,0 +1,44 @@
+.teams {
+    padding: 50px 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .description {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .teams-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .speaker {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .speaker img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 11px;
+    object-fit: cover;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .company {
+    font-size: 15px;
+    color: #888;
+  }
+  .mat-mdc-dialog-surface.mdc-dialog__surface {
+    width: 47%;
+}
