@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "io-extended-chandigarh",
-    "staging": "io-extended-chandigarh"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "io-d16a1"
+  }
 }

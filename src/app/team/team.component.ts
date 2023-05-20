@@ -24,7 +24,7 @@ export class TeamComponent {
     new Volunteers(6,'Ronit Jai Prakash', 'Ronit Jai Prakash.jpg', 'Technical Associate'),
     new Volunteers(7,'Parveen Jaiswal ', 'Parveen Jaiswal.jpeg', 'Full Stack Developer'),
     new Volunteers(8,'Ayush Kumar', 'Ayush Kumar.jpg', 'Frontend Developer'),
-    new Volunteers(9,'Shubham Kumar Chandrabansi', 'Shubham Kumar Chandrabansi.jpg', 'GDSC Lead'),
+    new Volunteers(9,'Shubham Kumar', 'Shubham Kumar Chandrabansi.jpg', 'GDSC Lead'),
     new Volunteers(10,'Kanishk Tyagi', 'Kanishk Tyagi.jpg', 'GDSC Lead'),
     new Volunteers(11,'Naveen', 'Naveen.jpg', 'Full Stack Developer'),
     new Volunteers(12,'Priyanshi', 'Priyanshi.jpg', 'Graphic Designer'),

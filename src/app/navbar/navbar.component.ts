@@ -63,6 +63,15 @@ export class NavbarComponent {
       });
     }
   }
+  toTeam() {
+    const element = document.getElementById("team");
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }
 
   toFAQ() {
     const element = document.getElementById("faq");
