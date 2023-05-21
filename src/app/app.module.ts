@@ -38,6 +38,11 @@ import { PartnersComponent } from './partners/partners.component';
 import { ModalComponent } from './modal-component/modal-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TeamComponent } from './team/team.component';
+import {AngularFireAnalyticsModule} from "@angular/fire/compat/analytics";
+import {AngularFireModule} from "@angular/fire/compat";
+import { environment } from 'src/environments/environment.prod';
+import {ScreenTrackingService, UserTrackingService}
+from '@angular/fire/analytics';
 
 @NgModule({
   declarations: [
@@ -56,6 +61,8 @@ import { TeamComponent } from './team/team.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule,
     MatSliderModule,
     MatIconModule,
     MatButtonModule,
@@ -83,7 +90,8 @@ import { TeamComponent } from './team/team.component';
     MdbValidationModule,
     NgbModule
   ],
-  providers: [],
+  providers: [ScreenTrackingService,
+    UserTrackingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

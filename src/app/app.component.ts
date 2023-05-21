@@ -1,5 +1,6 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, ViewChild } from '@angular/core';
+import { AngularFireAnalytics } from '@angular/fire/compat/analytics';
 import { Observable, map } from 'rxjs';
 
 @Component({
@@ -19,7 +20,9 @@ export class AppComponent {
     backgroundColors = ['#428eff', '#38a852', '#ffbb01'];
     backgroundColor = this.backgroundColors[0];
     index = 0;
-   constructor(private breakpointObserver: BreakpointObserver) {
+   constructor(private breakpointObserver: BreakpointObserver, private analytics: AngularFireAnalytics) {
+    this.analytics.logEvent('User Visited', {"component": "AppComponent"});
+
     setInterval(() => {
       this.index = (this.index + 1) % this.backgroundColors.length;
       this.backgroundColor = this.backgroundColors[this.index];
