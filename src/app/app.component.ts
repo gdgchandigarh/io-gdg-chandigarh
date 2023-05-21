@@ -35,5 +35,9 @@ export class AppComponent {
     });
   }
 
+  logEvent() {
+    this.analytics.logEvent('Web Registeration', {"component": "RegisterationComponent"});
+  }
+
 }
 
