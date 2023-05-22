@@ -43,6 +43,7 @@ import {AngularFireModule} from "@angular/fire/compat";
 import { environment } from 'src/environments/environment.prod';
 import {ScreenTrackingService, UserTrackingService}
 from '@angular/fire/analytics';
+import { WrapAfterThreeWordsPipe } from './pipes/wraptextpipe';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ from '@angular/fire/analytics';
     FaqComponent,
     PartnersComponent,
     ModalComponent,
-    TeamComponent
+    TeamComponent,
+    WrapAfterThreeWordsPipe
   ],
   imports: [
     BrowserModule,

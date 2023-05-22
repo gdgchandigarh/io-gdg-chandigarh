@@ -2,6 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SpeakerDialogComponent } from '../speaker-dialog/speaker-dialog.component';
 
+
 @Component({
   selector: 'app-speakers',
   templateUrl: './speakers.component.html',
@@ -61,7 +62,7 @@ export class SpeakersComponent implements OnInit {
      'Senior Engineer - Nagarro', 'Nagarro', 'prnvkmr954@gmail.com'),
 
      new Speaker(6, 
-      '', 
+      'Import Community as Fun', 
       '01:00', 
       'Aashi', 
       'Aashi.png',
