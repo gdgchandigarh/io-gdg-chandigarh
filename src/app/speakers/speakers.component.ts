@@ -59,6 +59,15 @@ export class SpeakersComponent implements OnInit {
     He has over 6.5 years of experience in the IT industry, and really passionate about what he do. His focus is on Angular, 
     and he love working on both front-end and back-end of web applications.`,
      'Senior Engineer - Nagarro', 'Nagarro', 'prnvkmr954@gmail.com'),
+
+     new Speaker(6, 
+      '', 
+      '01:00', 
+      'Aashi', 
+      'Aashi.png',
+    `
+    Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ml enthusiast who loves to work on real world problems.`,
+     'Co-Founder', 'MedEnGauge Healthcare Pvt Ltd', ''),
   ];
 
   constructor(@Inject(MatDialog) public dialog: MatDialog) {}

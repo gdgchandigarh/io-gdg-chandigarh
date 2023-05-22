@@ -10,7 +10,7 @@
   </h2>
   
   <div mat-dialog-content class="content">
-    <p>{{data.speaker.bio}}</p>
+    <p class="bio">{{data.speaker.bio}}</p>
   </div>
 
   <div class="session">
@@ -26,8 +26,8 @@
     </div>
     
   </div>
-  <div mat-dialog-actions class="mat-dialog-actions-left">
-    <button mat-button (click)="onClose()">Close</button>
+  <div mat-dialog-actions>
+    <button mat-button class="align-right" (click)="onClose()">Close</button>
   </div>
   
   
