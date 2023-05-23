@@ -10,7 +10,7 @@ import { SpeakerDialogComponent } from '../speaker-dialog/speaker-dialog.compone
 })
 export class SpeakersComponent implements OnInit {
   speakers: Speaker[] = [
-    new Speaker(1, 'Keynote', '09:00', 'Loveleen kaur','loveleen.jpg',
+    new Speaker(1, 'Welcome Keynote', '09:00', 'Loveleen kaur','loveleen.jpg',
     `Loveleen Kaur, a bundle of positivity and happiness, 
     this tech-savvy girl loves mountains and works wonders with technology. 
     She is currently working as an Android Developer and result oriented professional with 5 years of experience. 
@@ -69,6 +69,15 @@ export class SpeakersComponent implements OnInit {
     `
     Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ml enthusiast who loves to work on real world problems.`,
      'Co-Founder', 'MedEnGauge Healthcare Pvt Ltd', ''),
+
+     new Speaker(7, 
+      'Welcome Keynote', 
+      '01:00', 
+      'Kamal Vaid', 
+      'Kamal Vaid.png',
+    `
+    Kamal Vaid is a Google Certified Android Developer and Technology Lead at Infosys. He is also a Google Developer Expert For Google Assistant and proficient in Android Development with experience in Design, Development and API Integration of Android based applications.`,
+     'Google Developer Expert - Assistant', 'Google Developer Expert - Assistant', 'kamalvaid1989@gmail.com'),
   ];
 
   constructor(@Inject(MatDialog) public dialog: MatDialog) {}

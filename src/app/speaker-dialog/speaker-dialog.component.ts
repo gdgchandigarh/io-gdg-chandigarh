@@ -9,7 +9,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 export class SpeakerDialogComponent {
   constructor(@Inject(MatDialogRef<SpeakerDialogComponent>)
     public dialogRef: MatDialogRef<SpeakerDialogComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: any) {}
+    @Inject(MAT_DIALOG_DATA) public data: any) { }
 
   onClose(): void {
     this.dialogRef.close();
