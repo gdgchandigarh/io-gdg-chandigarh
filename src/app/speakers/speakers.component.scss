@@ -35,14 +35,13 @@
   h3 {
     font-size: 18px;
   }
-  .company {
-    font-size: 15px;
-    color: #888;
-  }
-  .mat-mdc-dialog-surface.mdc-dialog__surface {
+.mat-mdc-dialog-surface.mdc-dialog__surface {
     width: 47%;
 }
-.company {
+.company{
   white-space: pre-wrap;
+  margin-bottom: 0px;
   word-break: break-word;
+  font-size: 15px;
+    color: #888;
 }

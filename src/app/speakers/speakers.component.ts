@@ -16,7 +16,7 @@ export class SpeakersComponent implements OnInit {
     She is currently working as an Android Developer and result oriented professional with 5 years of experience. 
     She is Core Team Member of of GDG Chandigarh and Google Android Educator. Hailing from the technology field, 
     she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them 
-    learn and grow in their career.`, 'Software Engineer - Astrotalk', 'Astrotalk', 'loveleen.nancy@gmail.com'),
+    learn and grow in their career.`,  'Astrotalk', 'Software Engineer','loveleen.nancy@gmail.com'),
     
     new Speaker(2, 
       'Accelerate your key learnings of modern Android app development with KMM', 
@@ -25,7 +25,7 @@ export class SpeakersComponent implements OnInit {
     Adit is a Senior Android Engineer, currently working as an Individual Consultant. 
     He has been working in the industry for close to about 10+ years primarily helping build android mobile products and 
       scaling them up. Some of his hobbies are Stargazing, Travel, and Landscape Photography.`,
-       'Google Developer Expert - Android', 'Google Developer Expert', 'aditlal90@gmail.com'),
+       'Android', 'Google Developer Expert', 'aditlal90@gmail.com'),
 
     new Speaker(3, 
       'Unleashing creativity with DCGANs', 
@@ -35,7 +35,7 @@ export class SpeakersComponent implements OnInit {
     `
     Nitin is a Google Developer Expert in Machine Learning and an avid learner of ML who loves to understand how tech
     works and share his knowledge and expertise with the community.`,
-     'Google Developer Expert - Machine Learning', 'Google Developer Expert', 'tiwarinitin1999@gmail.com'),
+     'Machine Learning', 'Google Developer Expert', 'tiwarinitin1999@gmail.com'),
 
     new Speaker(4, 
       'Scaling your Web-Apps using Firebase & Google Cloud', 
@@ -48,7 +48,7 @@ export class SpeakersComponent implements OnInit {
     He runs the Google Developers Group for Cloud professionals and he's been also recognized as a Google Cloud Champion 
     Innovator for Serverless App Development. He has delivered over 50 technical Speakers and has hosted more than 
     65 developer-focused events & conferences. He has also been a Google DSC Lead and an ML Facilitator of Google 
-    AI's Explore ML Program.`, 'Google Developer Expert - Google Cloud', 'Google Developer Expert', 'derasarikartik@gmail.com'),
+    AI's Explore ML Program.`, 'Google Cloud', 'Google Developer Expert', 'derasarikartik@gmail.com'),
 
     new Speaker(5, 
       'Keeping Up with the Latest Trends in Web Development and Angular', 
@@ -59,7 +59,7 @@ export class SpeakersComponent implements OnInit {
     Pranav is a Full Stack Developer working as a Senior Engineer at Nagarro. 
     He has over 6.5 years of experience in the IT industry, and really passionate about what he do. His focus is on Angular, 
     and he love working on both front-end and back-end of web applications.`,
-     'Senior Engineer - Nagarro', 'Nagarro', 'prnvkmr954@gmail.com'),
+     'Nagarro','Senior Engineer', 'prnvkmr954@gmail.com'),
 
      new Speaker(6, 
       'Import Community as Fun', 
@@ -68,7 +68,7 @@ export class SpeakersComponent implements OnInit {
       'Aashi.png',
     `
     Aashi is the lead organizer for TensorFlow UserGroup Chandigarh and a 2X Kaggle expert. She is a ml enthusiast who loves to work on real world problems.`,
-     'Co-Founder', 'MedEnGauge Healthcare Pvt Ltd', ''),
+    'MedEnGauge Healthcare','Co-Founder', ''),
 
      new Speaker(7, 
       'Welcome Keynote', 
@@ -77,7 +77,7 @@ export class SpeakersComponent implements OnInit {
       'Kamal Vaid.png',
     `
     Kamal Vaid is a Google Certified Android Developer and Technology Lead at Infosys. He is also a Google Developer Expert For Google Assistant and proficient in Android Development with experience in Design, Development and API Integration of Android based applications.`,
-     'Google Developer Expert - Assistant', 'Google Developer Expert - Assistant', 'kamalvaid1989@gmail.com'),
+     'Assistant', 'Google Developer Expert', 'kamalvaid1989@gmail.com'),
   ];
 
   constructor(@Inject(MatDialog) public dialog: MatDialog) {}
