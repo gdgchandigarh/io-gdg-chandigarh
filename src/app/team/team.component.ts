@@ -20,6 +20,7 @@ export class TeamComponent {
     new Volunteers(2,'Simar Preet', 'Simar Preet Singh.png', 'Sr. Software Developer'),
     new Volunteers(3,'Veer Pratap Singh', 'Veer Pratap Singh.jpg', 'Senior Software Engineer'),
     new Volunteers(4,'Ankur Gill', 'Ankur Gill.jpg', 'Director Operations SVIET'),
+    new Volunteers(4,'Vishal Garg', 'Vishal Garg.jpg', 'Director Secretarial SVIET'),
     new Volunteers(5,'Nisha', 'Nisha.jpeg', 'Assistant Professor'),
     new Volunteers(6,'Ronit Jai Prakash', 'Ronit Jai Prakash.jpg', 'Technical Associate'),
     new Volunteers(7,'Parveen Jaiswal ', 'Parveen Jaiswal.jpeg', 'Full Stack Developer'),
